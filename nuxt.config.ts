@@ -5,5 +5,10 @@ export default defineNuxtConfig({
   target: 'static',
   router: {
     base: '/portifolio/'
+  },
+  typescript: {
+    strict: true,
+    typeCheck: true,
+    tsConfig: 'tsconfig.json'
   }
 })

@@ -3,9 +3,11 @@
   "scripts": {
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "typecheck": "nuxi typecheck"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.6"
+    "nuxt": "3.0.0-rc.6",
+    "typescript": "^4.7.4"
   }
 }
