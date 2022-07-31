@@ -15,7 +15,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Ricardo Castanho is a software developer with 2 years of experience, ready to changing the future.',
+      content: 'Ricardo Castanho is a software developer with 2 years of experience, ready to change the future.',
     }
   ]
 })
