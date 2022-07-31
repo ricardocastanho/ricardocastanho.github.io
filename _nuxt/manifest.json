@@ -1,6 +1,6 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-801b3cbf.mjs",
+    "file": "entry-01e8008c.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -8,7 +8,7 @@
     ]
   },
   "virtual:nuxt:/home/runner/work/portifolio/portifolio/.nuxt/error-component.mjs": {
-    "file": "error-component-c222d285.mjs",
+    "file": "error-component-90566816.mjs",
     "src": "virtual:nuxt:/home/runner/work/portifolio/portifolio/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -20,7 +20,7 @@
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "file": "error-404-511caed1.mjs",
+    "file": "error-404-8dd0b95f.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -35,7 +35,7 @@
     "file": "plugin-vue_export-helper-84c1d017.mjs"
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "file": "error-500-3bc63cd8.mjs",
+    "file": "error-500-77ada7c4.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
