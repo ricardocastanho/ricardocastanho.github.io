@@ -1,6 +1,7 @@
 <template>
-  <div>
-    Ricardo Castanho
+  <div class="container">
+    <h1>Please wait! Portifolio in construction...</h1>
+    <img src="/assets/gif/building.gif" alt="">
   </div>
 </template>
 
@@ -20,3 +21,21 @@ useHead({
   ]
 })
 </script>
+
+<style>
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #00DA88;
+  background: #15171E;
+  margin: 0px;
+}
+</style>
