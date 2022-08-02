@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Please wait! Portifolio in construction...</h1>
+    <h1>Please wait! Portfolio in construction...</h1>
     <img src="/assets/gif/building.gif" alt="">
   </div>
 </template>
