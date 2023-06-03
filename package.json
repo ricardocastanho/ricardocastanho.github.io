@@ -4,10 +4,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "typecheck": "nuxi typecheck"
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.6",
-    "typescript": "^4.7.4"
+    "nuxt": "^3.5.2"
   }
 }

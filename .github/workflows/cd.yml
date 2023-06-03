@@ -4,27 +4,47 @@ on: [push]
 
 jobs:
   cd:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [16]
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@master
 
-      - name: Setup node env
-        uses: actions/setup-node@v2.1.2
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.0.1
         with:
-          node-version: ${{ matrix.node }}
+          version: 7
+
+      - name: Setting up Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          check-latest: true
+
+      - name: Get pnpm store directory
+        id: pnpm-cache-dir
+        run: |
+          echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+
+      - name: Cache pnpm
+        uses: actions/cache@v3
+        id: pnpm-cache
+        with:
+          path: ${{ steps.pnpm-cache-dir.outputs.pnpm_cache_dir }}
+          key: cache-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
+
+      - name: Cache ~/.cache
+        uses: actions/cache@v3
+        id: cache-folder
+        with:
+          path: ~/.cache
+          key: cache-folder-${{ hashFiles('pnpm-lock.yaml') }}
 
       - name: Install dependencies
-        run: yarn
+        run: CYPRESS_CACHE_FOLDER=$CYPRESS_CACHE_FOLDER pnpm install --frozen-lockfile
 
       - name: Generate
-        run: yarn generate
+        run: pnpm run generate
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
