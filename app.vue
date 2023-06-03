@@ -1,4 +1,6 @@
 <template>
+  <VitePwaManifest />
+
   <div
     class="h-screen flex flex-col justify-center items-center space-x-3 space-y-3">
     <div>
@@ -28,7 +30,7 @@
         </p>
         <p
           class="font-lb text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter bg-primary text-background px-1 py-2 hover:italic hover:shadow-lg hover:-translate-x-2 hover:-translate-y-2 transition">
-          DEVELOPER
+          ENGINEER
         </p>
       </div>
       <div class="flex flex-row space-x-1 my-1 items-end justify-end">
@@ -78,15 +80,15 @@
 
 <script setup lang="ts">
 useHead({
-  title: "Ricardo Castanho - FullStack Developer",
+  title: "Ricardo Castanho - FullStack Engineer",
   htmlAttrs: {
-    lang: "pt-br",
+    lang: "en-us",
   },
   meta: [
     {
       name: "description",
       content:
-        "I've been a FullStack Software Developer for 3 years and I'm ready to change the future.",
+        "I've been a FullStack Software Engineer for 3 years and I'm ready to change the future.",
     },
   ],
 });

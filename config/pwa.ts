@@ -41,7 +41,7 @@ export const pwa: ModuleOptions = {
   registerWebManifestInRouteRules: true,
   writePlugin: true,
   devOptions: {
-    enabled: true,
+    enabled: process.env.VITE_PLUGIN_PWA === "true",
     navigateFallback: scope,
   },
 };

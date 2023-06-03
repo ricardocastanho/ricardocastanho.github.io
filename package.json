@@ -3,6 +3,7 @@
   "packageManager": "pnpm@8.6.0",
   "scripts": {
     "dev": "nuxt dev",
+    "dev:pwa": "VITE_PLUGIN_PWA=true nuxt dev",
     "generate": "nuxt generate",
     "preview": "npx serve .output/public",
     "postinstall": "nuxt prepare"
