@@ -44,19 +44,28 @@
           class="font-lb text-lg lg:text-4xl bg-secondary hover:italic hover:shadow-lg hover:-translate-x-2 hover:-translate-y-2 transition">
           in:
         </p>
-        <a href="https://github.com/ricardocastanho">
+        <a
+          href="https://github.com/ricardocastanho"
+          target="_blank"
+          aria-label="GitHub">
           <Icon
             name="uil:github"
             class="text-lg lg:text-4xl hover:-translate-x-2 hover:-translate-y-2 transition">
           </Icon>
         </a>
-        <a href="https://linkedin.com/in/castanhoricardo">
+        <a
+          href="https://linkedin.com/in/castanhoricardo"
+          target="_blank"
+          aria-label="Linkedin">
           <Icon
             name="uil:linkedin"
             class="text-lg lg:text-4xl hover:-translate-x-2 hover:-translate-y-2 transition">
           </Icon>
         </a>
-        <a href="mailto:ricardocastanho632@gmail.com">
+        <a
+          href="mailto:ricardocastanho632@gmail.com"
+          target="_blank"
+          aria-label="Email">
           <Icon
             name="uil:mailbox"
             class="text-lg lg:text-4xl hover:-translate-x-2 hover:-translate-y-2 transition">
