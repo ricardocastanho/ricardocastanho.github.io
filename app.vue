@@ -33,26 +33,14 @@
           ENGINEER
         </p>
       </div>
-      <div class="flex flex-row space-x-1 my-1 items-end justify-end">
-        <p
-          class="font-lb text-lg lg:text-4xl bg-secondary hover:italic hover:shadow-lg hover:-translate-x-2 hover:-translate-y-2 transition">
-          Reach
-        </p>
-        <p
-          class="font-lb text-lg lg:text-4xl bg-secondary hover:italic hover:shadow-lg hover:-translate-x-2 hover:-translate-y-2 transition">
-          me
-        </p>
-        <p
-          class="font-lb text-lg lg:text-4xl bg-secondary hover:italic hover:shadow-lg hover:-translate-x-2 hover:-translate-y-2 transition">
-          in:
-        </p>
+      <div class="flex flex-row space-x-5 items-end justify-end my-2">
         <a
           href="https://github.com/ricardocastanho"
           target="_blank"
           aria-label="GitHub">
           <Icon
             name="uil:github"
-            class="text-lg lg:text-4xl hover:-translate-x-2 hover:-translate-y-2 transition">
+            class="text-5xl hover:-translate-x-2 hover:-translate-y-2 transition">
           </Icon>
         </a>
         <a
@@ -61,7 +49,7 @@
           aria-label="Linkedin">
           <Icon
             name="uil:linkedin"
-            class="text-lg lg:text-4xl hover:-translate-x-2 hover:-translate-y-2 transition">
+            class="text-5xl hover:-translate-x-2 hover:-translate-y-2 transition">
           </Icon>
         </a>
         <a
@@ -70,7 +58,7 @@
           aria-label="Email">
           <Icon
             name="uil:mailbox"
-            class="text-lg lg:text-4xl hover:-translate-x-2 hover:-translate-y-2 transition">
+            class="text-5xl hover:-translate-x-2 hover:-translate-y-2 transition">
           </Icon>
         </a>
       </div>
