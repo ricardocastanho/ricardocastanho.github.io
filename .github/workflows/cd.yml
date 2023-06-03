@@ -41,7 +41,7 @@ jobs:
           key: cache-folder-${{ hashFiles('pnpm-lock.yaml') }}
 
       - name: Install dependencies
-        run: CYPRESS_CACHE_FOLDER=$CYPRESS_CACHE_FOLDER pnpm install
+        run: CYPRESS_CACHE_FOLDER=$CYPRESS_CACHE_FOLDER pnpm install --shamefully-hoist
 
       - name: Generate
         run: pnpm run generate
