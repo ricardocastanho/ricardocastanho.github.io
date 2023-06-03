@@ -23,6 +23,7 @@ export default defineNuxtConfig({
         { name: "name", content: appName },
         { name: "description", content: appDescription },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { name: "theme-color", content: "#ffffff" },
         {
           name: "apple-mobile-web-app-status-bar-style",
           content: "black-translucent",
