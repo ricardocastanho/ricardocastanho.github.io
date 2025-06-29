@@ -15,12 +15,10 @@
         return window.innerWidth / window.innerHeight < 0.8;
       }
       if (isMobile()) {
-        console.log("is mobile");
         document.write(
           '<spline-viewer url="https://prod.spline.design/E4qdJkXr3fXbER-d/scene.splinecode"></spline-viewer>'
         );
       } else {
-        console.log("is web");
         document.write(
           '<spline-viewer url="https://prod.spline.design/Pp1YNUehrs0t2045/scene.splinecode"></spline-viewer>'
         );
